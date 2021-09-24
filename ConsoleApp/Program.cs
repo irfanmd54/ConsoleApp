@@ -10,9 +10,18 @@ namespace ConsoleApp
     {
         public static void Main(string[] args)
         {
-            int[] nums = { 2, 7, 11, 15 };
+            #region
+            // Two Sum
+            int[] nums1 = { 2, 7, 11, 15 };
             int target = 9;
-            int[] output = new TwoSum().TwoSumHashMap(nums, target);
+            int[] output1 = new TwoSum().TwoSumHashMap(nums1, target);
+            #endregion
+
+
+            #region
+            int[] nums2 = { -1, 0, 1, 2, -1, -4 };
+            IList<IList<int>> output2 = new ThreeSum().ThreeSumHashMap(nums2);
+            #endregion
         }
     }
 }

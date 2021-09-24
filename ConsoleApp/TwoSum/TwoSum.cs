@@ -1,11 +1,27 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿// <copyright file="TwoSum.cs" company="Microsoft">
+// Copyright (c) 2021 All Rights Reserved
+// </copyright>
+// <author>FAREAST\irmohamm</author>
+// <date>9/24/2021 12:08:24 PM</date>
+// <summary>TwoSum.cs</summary>
 
 namespace ConsoleApp
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+
+    /// <summary>
+    /// Defines the <see cref="TwoSum" />.
+    /// </summary>
     public class TwoSum
     {
+        /// <summary>
+        /// The TwoSumArray.
+        /// </summary>
+        /// <param name="nums">The nums<see cref="int[]"/>.</param>
+        /// <param name="target">The target<see cref="int"/>.</param>
+        /// <returns>The <see cref="int[]"/>.</returns>
         public int[] TwoSumArray(int[] nums, int target)
         {
             int[] output = new int[2];
@@ -23,6 +39,12 @@ namespace ConsoleApp
             return output;
         }
 
+        /// <summary>
+        /// The TwoSumHashMap.
+        /// </summary>
+        /// <param name="nums">The nums<see cref="int[]"/>.</param>
+        /// <param name="target">The target<see cref="int"/>.</param>
+        /// <returns>The <see cref="int[]"/>.</returns>
         public int[] TwoSumHashMap(int[] nums, int target)
         {
             int[] output = new int[2];
