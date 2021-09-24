@@ -10,7 +10,7 @@ namespace ConsoleApp.ThreeSum
     {
         public IList<IList<int>> ThreeSumHashMap(int[] nums)
         {
-            List<List<int>> output = new List<List<int>>();
+            IList<IList<int>> output = new List<IList<int>>();
 
             return output;
         }
